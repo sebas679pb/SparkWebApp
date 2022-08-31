@@ -1,0 +1,71 @@
+/* ------------ Visualizer ------------- */
+
+.visual-package {
+    padding: 3px;
+    border-radius: 2px;
+    margin-top: 3px;
+}
+
+.visual-header {
+    cursor: pointer;
+}
+
+.visual-name {
+    color: rgb(0, 0, 0);
+}
+
+.visual-array {
+    background-color: #ffffff;
+    border: thin solid #ffffff;
+}
+
+.visual-object {
+    background-color: #ffffff;
+    border: thin solid #0d376b;
+}
+
+.visual-string {
+    color: rgb(0, 0, 0);
+}
+
+.visual-number {
+    color: rgb(0, 0, 0);
+}
+
+.visual-function {
+    color: rgb(0, 0, 0);
+}
+
+.visual-open .visual-children {
+    display: block;
+}
+
+.visual-closed .visual-children {
+    display: none;
+}
+
+.visual-arrow {
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+}
+
+.visual-open .visual-arrow {
+    background-position: -20px 0;
+}
+
+.visual-closed .visual-arrow {
+    background-position: 0 0;
+}
+
+.visual-type {
+    color: gray;
+    font-size: 8pt;
+    float: right;
+}
+
+.hide {
+    display: none !important;
+}
